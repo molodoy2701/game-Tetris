@@ -131,8 +131,6 @@ class TetrisGame:
         
         for y in range(GRID_HEIGHT + 1):
             pygame.draw.line(self.screen, GRAY,
-
-> Satn:
 (grid_left, grid_top + y * GRID_SIZE),
                            (grid_left + GRID_WIDTH * GRID_SIZE, grid_top + y * GRID_SIZE))
         
